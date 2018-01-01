@@ -17,7 +17,7 @@ public class CyutExam2 extends JFrame implements ActionListener{
 	public CyutExam2() {
 		super("撥號程式");
 		setLayout(new BorderLayout());
-		phoneNumber = new JLabel("0");
+		phoneNumber = new JLabel(" ");
 		phoneNumber.setFont(new Font(null, 0, 48));
 		phoneNumber.setHorizontalAlignment(JLabel.RIGHT);
 		add(phoneNumber, BorderLayout.NORTH);
